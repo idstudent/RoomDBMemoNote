@@ -16,7 +16,7 @@
         android:layout_gravity="end" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/memoList"
+        android:id="@+id/recyclerMemoList"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

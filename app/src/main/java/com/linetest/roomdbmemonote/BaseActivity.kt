@@ -15,4 +15,9 @@ abstract class BaseActivity : AppCompatActivity() {
 
         dbManager = DBManager.getInstance(this) ?: return
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        compositeDisposable.dispose()
+    }
 }
